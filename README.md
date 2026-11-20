@@ -1,6 +1,6 @@
 # What DockOutline is
 
-It's not an Ouline. It's an Underline.
+It's not an Outline. It's an Underline.
 Why didn't I change it's name? I can't be bothered. This was for me. I'm just letting you have it if you want.
 
 ### What is does
