@@ -56,14 +56,12 @@ EOF
 ```
 codesign --force --deep --sign - DockOutline.app
 open DockOutline.app
-DockOutline.app: replacing existing signature
-```
-```
-codesign --force --deep --sign - DockOutline.app
-open DockOutline.app
 ```
 
 macOS may ask for Accessibility permission. This needs to be granted.
+If you are updating the app remove the current permission and allow it again when requested.
+
+Add it to your login items to launch at login/reboot.
 
 ---
 
@@ -72,7 +70,7 @@ macOS may ask for Accessibility permission. This needs to be granted.
 ### DockOutline
 
 
-It polls the Dock every 0.15 seconds to make position changes during Dock magnification more responsive.
+It polls the Dock every 0.15 seconds (a bit laggy but I didn't want it taking all the CPU cycles!) to make position changes during Dock magnification more responsive.
 
 ### Important visual limitation
 
